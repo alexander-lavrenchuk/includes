@@ -55,6 +55,7 @@ namespace colors {
     }
     
     string reset_format() {
+        format_string = PREFIX;
         return (string)PREFIX + "0m";
     }
 }   // namespace colors
