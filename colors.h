@@ -44,8 +44,11 @@ namespace colors {
     
     template<typename T>
     string set_format(T style) {
+        string format_string_backup;
         format_string += to_string(style) + "m";    
-        return format_string;
+        format_string_backup = format_string;
+        format_string = PREFIX;
+        return format_string_backup;
     }
     
     template<typename T, typename... Args>
