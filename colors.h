@@ -1,7 +1,8 @@
-#include <string>
-
+#pragma once
 #ifndef _COLORS_H_
 #define _COLORS_H_
+
+#include <string>
 
 /* PREFIX */
 #define PREFIX              "\033["
